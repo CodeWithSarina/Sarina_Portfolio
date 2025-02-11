@@ -1,48 +1,43 @@
-/* Navbar.css */
-
-.header {
+.navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 20px;
-
-  color: black;
-}
-
-.header h1 {
-  margin: 0;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.nav {
-  display: flex;
+  justify-content: space-between;
+  margin: 20px 170px;
 }
 
 .nav-menu {
-  list-style-type: none;
-  margin: 0;
-  padding-right:  400px;;
   display: flex;
-
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+  font-size: 20px;
 }
 
 .nav-menu li {
-  margin: 0 15px;
-  padding-left: 10px;
+  list-style: none;
 }
 
 .nav-menu li a {
-  color: black;
   text-decoration: none;
-  font-size: 18px;
-  transition: color 0.3s;
+  color: black;
 }
 
 .nav-menu li a:hover {
-  color: #f39c12;
+  text-decoration: none;
+  color: #f0a500;
 }
 
-.nav-menu li a:active {
-  color: #e67e22;
+.nav-connect {
+  padding: 10px 30px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #da7c25, #b923e1);
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.5s;
+  border: none;
+  color: white;
+}
+
+.nav-connect:hover {
+  transform: scale(1.05);
 }
